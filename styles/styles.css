@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin:  0 auto;
+}
+
+.container-logo {
+    background-color: #419488;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo a {
+    color: white;
+    font-size: 50px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu li {
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgb(248, 243, 234);    
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 200px;
+}
+
+.texto-apresentacao h1 {
+    color: #FF4081;
+    margin-bottom: 10px;
+}
+
+
+/* .img-banner {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.card {
+    display: inline;   
+    
+} 
+
+footer {
+    background-color: #419488;
+}
+
+/* Cursos */
+
+/* Curso */
+
+/* Blog */
+.container-blog{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto; 
+}
+
+.container-blog div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-blog img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-blog h1 {
+    color: #FF4081;
+}
+
+.div-post{
+        display: flex;
+        flex-direction: column;
+}
+
+.container-blog-post{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Post */
+
+/* Contato */
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto; 
+}
+
+.container-contato h1 {
+    color: #FF4081;
+}
+
+.container-contato form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.container-contato form * {
+    margin: 20px 0;
+}
+
+input, 
+textarea {
+     width: 100%; 
+}
+
+input, 
+textarea, 
+form {
+    border: 1px solid #FF4081;
+    border-radius: 20px;
+}
+
+#enviar {
+    background-color: #FF4081;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
