@@ -1,5 +1,6 @@
 # dindin
 Hands on Gama Academy
+<br>
 Ainda preciso fazer alguns ajustes, no final o projeto deve ficar igual a essas imagens:
 
 ![image](https://user-images.githubusercontent.com/93790694/156838592-7f0baefd-04a3-456e-8477-431c8f7a34cf.png)
