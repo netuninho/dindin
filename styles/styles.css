@@ -79,12 +79,32 @@ a:hover {
 
 footer {
     background-color: #419488;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Cursos */
 
 /* Curso */
+.container-curso div h1, p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20%;
+}
 
+.container-curso h1 {
+    color: #FF4081;
+}
+
+.container-curso p {
+    width: 30%;
+}
+
+.container-curso img {
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap-reverse;
+}
 /* Blog */
 .container-blog{
     display: flex;
@@ -105,20 +125,95 @@ footer {
 }
 
 .container-blog h1 {
-    color: #FF4081;
+    color: #009688;
 }
 
-.div-post{
-        display: flex;
-        flex-direction: column;
+.div-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+.div-post a {
+    color: #FF4081;
+    font-weight: bold;
 }
 
 .container-blog-post{
     display: flex;
     flex-wrap: wrap;
 }
+
 /* Post */
 
+.container-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-post h1 {
+    color: #FF4081;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-post h5 {
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-post img {
+    width: 60%;
+    display: flex;
+    align-self: center;
+}
+
+.container-post {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container-post h3 {
+    color: #419488;
+}
+
+.container-post-curso {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.container-post-curso h3 {
+    text-align: center;
+    color: #FF4081;
+}
+
+.container-post-curso p {
+    text-align: center;
+    margin-right: 10%;
+}
+
+.container-post-curso button {
+    display: flex;
+    align-self: center;
+    background-color: #FF4081;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin-bottom: 10%;
+}
+
+/* .container-post-curso img {
+    display: flex;
+    align-self: center;
+} */
 /* Contato */
 
 .container-contato {
